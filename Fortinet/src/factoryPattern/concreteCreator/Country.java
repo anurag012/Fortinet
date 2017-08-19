@@ -5,7 +5,7 @@ import factoryPattern.INRupee;
 import factoryPattern.UKPound;
 import factoryPattern.USDollar;
 
-public class CurrencyFactory {
+public class Country {
 
 	public static Currency getCurrency(String country) {
 		if(country.equalsIgnoreCase("India")) {
